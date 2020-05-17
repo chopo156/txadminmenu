@@ -7,4 +7,4 @@ Have in mind as this is a client side script, every user can run the command, th
 
 Remember to change the index.html file, in the IFRAME add your txAdmin link! (No it cant be localhost)
 
-Also have in mind you cant use the FiveM loggin as they reject the iframe request.
+Also have in mind you cant use the FiveM login as they reject the iframe request.
