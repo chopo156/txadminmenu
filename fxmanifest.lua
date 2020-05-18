@@ -11,12 +11,6 @@ client_scripts {
     'client.lua'
 }
 
-server_scripts {
-    'client.lua'
-}
-
-
-
 files {
     'html/index.html',
     'html/style.css',
