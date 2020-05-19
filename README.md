@@ -13,5 +13,5 @@ To have the latest features always make sure you are using the LATEST (not lates
 
 Ban feature expected to be implemented in txAdmin day 21.
 
-No, i did not made txAdmin
+No, i did not make txAdmin
 # txAdmin is mantained and created by Tabarra, big props to you buddy https://github.com/tabarra/txAdmin
