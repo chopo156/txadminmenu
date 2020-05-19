@@ -12,3 +12,6 @@ Also have in mind you cant use the FiveM login as they reject the iframe request
 To have the latest features always make sure you are using the LATEST (not latest recommended nor optional) version of FXServer artifacts.
 
 Ban feature expected to be implemented in txAdmin day 21.
+
+No, i did not made txAdmin
+# txAdmin is mantained and created by Tabarra, big props to you buddy https://github.com/tabarra/txAdmin
