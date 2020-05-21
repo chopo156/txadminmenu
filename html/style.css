@@ -1,26 +1,121 @@
-
 * {
-	color: #ffd700;
-	font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{font-family: Arial;}
+body {
+  font-family: "Segoe UI", sans-serif;
+}
+
+iframe {
+  border: 0;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
 
 #adminbody {
-	padding: 10px;
-	text-shadow: 2px 2px 5px #ffd700;
-    position: absolute;
-    color: rgb(241, 235, 235);
-    top: 47%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    font-size: 45px;
-	text-align: center;
-	background-color: #053f5e;
-	border-radius: 25px;
-	border: 2px solid #ffd700 ;
+  padding: 10px;
+  position: absolute;
+  color: rgb(241, 235, 235);
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 25px;
+  display: none;
+  text-align: center;
 }
 
 .small {
-	font-size: 25px;
+  font-size: 25px;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 85% 15%;
+  padding: 10px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid-item h2 {
+  font: 15px;
+}
+.fechar {
+  text-align: right;
+}
+.grid-item button {
+  border: 0;
+  width: 140px;
+  height: 60px;
+  background-color: #d61f1f;
+  border-radius: 5%;
+  color: #fff;
+  box-shadow: 0px 2px 16px -2px rgba(0, 0, 0, 0.75);
+  align-items: center;
+}
+
+.load-wrapp {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  text-align: center;
+  top: 47%;
+  left: 45%;
+}
+
+.load-wrapp p {
+  padding: 0 0 20px;
+}
+.load-wrapp:last-child {
+  margin-right: 0;
+}
+
+.line {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  border-radius: 15px;
+  background-color: yellow;
+}
+
+.load-3 .line:nth-last-child(1) {
+  animation: loadingC 0.6s 0.1s linear infinite;
+}
+.load-3 .line:nth-last-child(2) {
+  animation: loadingC 0.6s 0.2s linear infinite;
+}
+.load-3 .line:nth-last-child(3) {
+  animation: loadingC 0.6s 0.3s linear infinite;
+}
+
+@keyframes loadingC {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+#error {
+  display: none;
+  position: absolute;
+  color: red;
+  text-align: center;
+  top: 47%;
+  left: 18%;
 }
