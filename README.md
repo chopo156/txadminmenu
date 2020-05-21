@@ -8,7 +8,7 @@ add_ace identifier.steam:steamidhere "txadmin.menu.perm" allow
 # or
 add_ace identifier.rockstar:licensehere "txadmin.menu.perm" allow
 
-Remember to change the index.html file, in the IFRAME add your txAdmin link! (No it cant be localhost)
+# Remember to change the config.lua, add your txAdmin link! (No it cant be localhost)
 
 Also have in mind you cant use the FiveM login as they reject the iframe request.
 
