@@ -1,4 +1,4 @@
-# TXAdminINGAME
+# txAdmin Menu!
 This FiveM script doesnt use a framework, and it implements the txAdmin panel in game with the command /admin
 
 As this is my first script, im kinda newbie there isnt a way to close the admin with GUI, u can close it by clicking F8 and typing closeadmin!
