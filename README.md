@@ -1,8 +1,6 @@
 # txAdmin Menu!
 This FiveM script doesnt use a framework, and it implements the txAdmin panel in game with the command /admin
 
-As this is my first script, im kinda newbie there isnt a way to close the admin with GUI, u can close it by clicking F8 and typing closeadmin!
-
 # To give a player the hability of opening the menu insert the following line in your server.cfg
 add_ace identifier.steam:steamidhere "txadmin.menu.perm" allow
 # or
