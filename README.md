@@ -14,3 +14,5 @@ To have the latest features always make sure you are using the LATEST (not lates
 
 No, i did not make txAdmin
 # txAdmin is mantained and created by Tabarra, big props to you buddy https://github.com/tabarra/txAdmin
+
+# When using some features that require inputs, u need to alt tab sometimes because the txAdmin popups are made in JS, so it creates an external window.
