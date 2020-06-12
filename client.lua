@@ -23,5 +23,5 @@ end)
 
 RegisterNetEvent("no-perms")
 AddEventHandler("no-perms", function()
-    TriggerEvent("chatMessage", "[Error]", {255,0,0}, "Sorry, but you don't have permission to do this" )
+    TriggerEvent("chatMessage", "[Error]", {255,0,0}, "Sorry, you don't have permission to run this command!" )
 end)
